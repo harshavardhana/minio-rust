@@ -1,0 +1,14 @@
+[package]
+name = "minio-rust"
+version = "0.0.1"
+authors = ["Minio, Inc. <dev@minio.io>"]
+
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["AWS", "Amazon", "Minio"]
+description = "Minio Rust Library for Amazon S3 compatible cloud storage"
+repository = "https://github.com/minio/minio-rust"
+exclude = [".gitignore", ".travis.yml", "docgen.sh"]
+build = "build.rs"
+
+[dependencies]
